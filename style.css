@@ -51,7 +51,34 @@ nav {
     line-height: normal;
     padding: 0.5rem 1rem;
 }
+.sign-up-button-2 {
+    border-radius: 1.8125rem;
+    background: #C70039;
+    box-shadow: 0px 4px 0px 0px #000;
+    color: #FFF;
+    /* font-family: Inter; */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0.5rem 1rem;
+    
+}
 
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.CTA-1{
+    display: flex;
+    align-items: center;
+}
+
+.CTA-1 p{
+    margin: auto 1rem;
+    font-weight: 500;
+}
 
 /* Navbar */
 
@@ -130,13 +157,18 @@ label {
     line-height: normal;
 }
 
-.already-user {
+.already-user, .forgot-password {
     color: #141E46;
     /* font-family: Inter; */
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.already-user a, .forgot-password a {
+    color: #de5c5c;
+    
 }
 
 form{
@@ -173,3 +205,20 @@ label, input{
     padding: 0.5rem 1rem;
     margin-top: 1rem;
 }
+
+.sign-in-button-2 {
+    border-radius: 1.75rem;
+    background: #49c700;
+    box-shadow: 0px 4px 0px 0px #000;
+    color: #FFF;
+    /* font-family: Inter; */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+
+
+
