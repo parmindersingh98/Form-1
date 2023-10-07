@@ -221,11 +221,6 @@ label, input{
     margin-top: 1rem;
 }
 
-@media (max-width:900px) {
-   /* body{
-    background-color: red;
-   } */
-}
 
 @media (max-width:600px) {
     body{
